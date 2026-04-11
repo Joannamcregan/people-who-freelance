@@ -26,12 +26,12 @@
         <?php if (is_user_logged_in()){ 
             ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
         <?php } else {
-            ?><a href="<?php echo wp_login_url(home_url());?>">Login</a>
-            <a>Join</a>
+            ?><a>Join</a>
+            <a href="<?php echo wp_login_url(home_url());?>">Login</a>
         <?php }
     ?></nav>
     <div id="menu-container" class="hidden">
-        <span id="close-menu">close</span>
+        <p id="close-menu" class="invisible">close</p>
         <nav>
             <a>Find Freelancers</a>
             <a>Find Clients</a>
@@ -39,8 +39,8 @@
             <?php if (is_user_logged_in()){ 
                 ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
             <?php } else {
-                ?><a href="<?php echo wp_login_url(home_url());?>">Login</a>
-                <a>Join</a>
+                ?><a>Join</a>
+                <a href="<?php echo wp_login_url(home_url());?>">Login</a>
             <?php }
         ?></nav>
     </div>
