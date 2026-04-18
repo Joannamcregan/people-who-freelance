@@ -1,13 +1,36 @@
+main{
+    min-height: 90vh;
+    max-width: 100%;
+    padding: 20px;
+}
+main a{
+    color: black;
+}
 .mobile{
     display: none;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 810px) {
     .mobile{
         display: block !important;
     }
     .desktop{
         display: none !important;
     }
+    main{
+        padding: 10px;
+    }
+}
+.serif{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+.no-underline{
+    text-decoration: none;
+}
+.font-20{
+    font-size: 20px;
 }
 .invisible{
     visibility: hidden;
@@ -79,6 +102,10 @@ header{
 }
 header a, header span, header nav{
     margin: 20px;
+    color: rgb(6, 51, 44);
+}
+#menu-link{
+    text-decoration: underline;
 }
 #menu-container{
     position: absolute;
@@ -87,11 +114,13 @@ header a, header span, header nav{
     background: rgb(244, 250, 248);
     border-left: solid rgba(186, 214, 204, 0.5) 3px;
     border-bottom: solid rgba(186, 214, 204, 0.8) 3px;
+    z-index: 2000;
 }
 #menu-container p#close-menu{
     margin: 20px 20px 40px 20px;
     text-align: right;
     text-decoration: underline;
+    color: rgb(6, 51, 44);
 }
 #menu-container nav a{
     display: block;
@@ -105,9 +134,4 @@ footer{
 }
 footer a, footer span, footer p{
     margin: 20px;
-}
-main{
-    min-height: 90vh;
-    max-width: 100%;
-    padding: 20px;
 }

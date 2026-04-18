@@ -17,10 +17,10 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
-    <a href="<?php echo esc_url(site_url()) ?>">PWF Demo</a>
+    <a href="<?php echo esc_url(site_url()) ?>" class="serif font-20 no-underline"><strong><em>PWF Demo</em></strong></a>
     <span id="menu-link" class="mobile">menu</span>
     <nav class="desktop">
-        <a>Find Freelancers</a>
+        <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
         <a>Find Clients</a>
         <a>Learn More</a>
         <?php if (is_user_logged_in()){ 
@@ -30,10 +30,10 @@
             <a href="<?php echo wp_login_url(home_url());?>">Login</a>
         <?php }
     ?></nav>
-    <div id="menu-container" class="hidden">
+    <div id="menu-container" class="hidden mobile">
         <p id="close-menu" class="invisible">close</p>
         <nav>
-            <a>Find Freelancers</a>
+            <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
             <a>Find Clients</a>
             <a>Learn More</a>
             <?php if (is_user_logged_in()){ 
