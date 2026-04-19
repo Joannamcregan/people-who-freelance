@@ -19,26 +19,27 @@ class Menu {
   constructor() {
     this.menuLink = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#menu-link');
     this.menu = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#menu-container');
+    this.menuWrapper = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#menu-container-wrapper');
     this.closeMenu = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#close-menu');
     this.events();
   }
   events() {
     this.menuLink.on('click', () => {
       this.menuLink.addClass('hidden');
-      this.menu.removeClass('hidden');
-      this.menu.addClass('fadeIn');
+      this.menuWrapper.removeClass('hidden');
+      this.menuWrapper.addClass('fadeIn');
       setTimeout(() => {
-        this.menu.removeClass('fadeIn');
+        this.menuWrapper.removeClass('fadeIn');
       }, 700);
       setTimeout(() => {
         this.closeMenu.removeClass('invisible');
       }, 750);
     });
     this.closeMenu.on('click', () => {
-      this.menu.addClass('fadeOut');
+      this.menuWrapper.addClass('fadeOut');
       setTimeout(() => {
-        this.menu.addClass('hidden');
-        this.menu.removeClass('fadeOut');
+        this.menuWrapper.addClass('hidden');
+        this.menuWrapper.removeClass('fadeOut');
         this.menuLink.removeClass('hidden');
       }, 750);
     });

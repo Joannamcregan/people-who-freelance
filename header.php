@@ -22,7 +22,7 @@
     <nav class="desktop">
         <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
         <a href="<?php echo esc_url(site_url('/requests')) ?>">Find Clients</a>
-        <a>Learn More</a>
+        <a href="<?php echo esc_url(site_url('/about')) ?>">Learn More</a>
         <?php if (is_user_logged_in()){ 
             ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
         <?php } else {
@@ -36,7 +36,7 @@
             <nav>
                 <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
                 <a href="<?php echo esc_url(site_url('/requests')) ?>">Find Clients</a>
-                <a>Learn More</a>
+                <a href="<?php echo esc_url(site_url('/about')) ?>">Learn More</a>
                 <?php if (is_user_logged_in()){ 
                     ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
                 <?php } else {

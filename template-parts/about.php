@@ -1,0 +1,6 @@
+<h2>Freelancers and Clients Need Ways to Connect</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget finibus ipsum. Aliquam ante metus, iaculis aliquet lorem a, efficitur porta purus. Duis finibus sem et ligula fermentum tristique. Ut eu fringilla erat, eget rhoncus nibh. Ut in velit eu felis molestie ultrices.</p>
+<h2>Not Shady Corporations that Profit from Connection</h2>
+<p>Aenean a diam vitae magna placerat sagittis a et nisi. Praesent ornare ligula sed mattis posuere. In suscipit nulla arcu, pharetra pharetra eros gravida at. Mauris nunc tellus, consectetur quis dignissim ac, facilisis ut lacus. Sed viverra justo et tempor tempor. Proin vel convallis lorem. Donec pretium scelerisque ex, quis egestas mi tristique eu. Integer eleifend mattis nibh, a accumsan libero pellentesque feugiat. Donec volutpat varius arcu. Nulla facilisi.</p>
+<h2>Community Can Offer a Better Way to Network</h2>
+<p>Pellentesque dictum nisl augue. Quisque sed orci massa. Curabitur eu lobortis nisl. Etiam quis dolor eget dolor maximus tempus. Mauris rutrum erat lorem, in bibendum enim scelerisque maximus. Maecenas ac scelerisque elit. Maecenas non pellentesque purus. Vivamus eget dictum est, a hendrerit arcu. Proin blandit tellus vitae nulla bibendum, in ultricies nunc mollis.</p>
