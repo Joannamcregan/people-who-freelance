@@ -107,6 +107,15 @@ header a, header span, header nav{
 #menu-link{
     text-decoration: underline;
 }
+#menu-container-wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.85);
+    z-index: 2000;
+}
 #menu-container{
     position: absolute;
     top: 0px;
@@ -114,7 +123,6 @@ header a, header span, header nav{
     background: rgb(244, 250, 248);
     border-left: solid rgba(186, 214, 204, 0.5) 3px;
     border-bottom: solid rgba(186, 214, 204, 0.8) 3px;
-    z-index: 2000;
 }
 #menu-container p#close-menu{
     margin: 20px 20px 40px 20px;
