@@ -1,3 +1,6 @@
+:root {
+  --dark-green: rgb(0, 66, 56);
+}
 main{
     min-height: 90vh;
     max-width: 100%;
@@ -63,17 +66,16 @@ main a{
 .centered-text{
     text-align: center;
 }
-.page-centered{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-}
 .centered-x{
     margin: auto;
+}
+.margin-y-60{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.margin-y-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .margin-bottom-10{
     margin-bottom: 10px;
@@ -104,9 +106,14 @@ header{
     justify-content: space-between;
     border-bottom: solid rgba(210, 226, 210, 0.5) 3px;
 }
+.subheading{
+    font-weight: 450;
+    color: var(--dark-green);
+    font-style: italic;
+}
 header a, header span, header nav{
     margin: 20px;
-    color: rgb(6, 51, 44);
+    color: var(--dark-green);
 }
 #menu-link{
     text-decoration: underline;
