@@ -1,5 +1,6 @@
 :root {
-  --dark-green: rgb(0, 66, 56);
+  --dark-green: rgb(0, 83, 70);
+  --copper: rgb(103, 29, 0);
 }
 main{
     min-height: 90vh;
@@ -22,6 +23,9 @@ main a{
     main{
         padding: 10px;
     }
+}
+.copper-text{
+    color: var(--copper);
 }
 .serif{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -106,9 +110,12 @@ header{
     justify-content: space-between;
     border-bottom: solid rgba(210, 226, 210, 0.5) 3px;
 }
+h1{
+    color: var(--copper);
+}
 .subheading{
-    font-weight: 450;
-    color: var(--dark-green);
+    font-weight: 500;
+    color: var(--copper);
     font-style: italic;
 }
 header a, header span, header nav{
