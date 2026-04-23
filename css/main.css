@@ -1,6 +1,6 @@
 :root {
   --dark-green: rgb(0, 83, 70);
-  --copper: rgb(103, 29, 0);
+  --dark-teal: rgb(0, 73, 82);
 }
 main{
     min-height: 90vh;
@@ -24,8 +24,8 @@ main a{
         padding: 10px;
     }
 }
-.copper-text{
-    color: var(--copper);
+.dark-teal-text{
+    color: var(--dark-teal);
 }
 .serif{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -44,6 +44,16 @@ main a{
 }
 .hidden{
     display: none !important;
+}
+a.button-link{
+    text-decoration: none;
+    color: white;
+}
+a.button-link div{
+    background: var(--dark-teal);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
 }
 @keyframes fadeIn {
     0%{
@@ -111,11 +121,11 @@ header{
     border-bottom: solid rgba(210, 226, 210, 0.5) 3px;
 }
 h1{
-    color: var(--copper);
+    color: var(--dark-teal);
 }
 .subheading{
     font-weight: 500;
-    color: var(--copper);
+    color: var(--dark-teal);
     font-style: italic;
 }
 header a, header span, header nav{

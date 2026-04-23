@@ -26,8 +26,8 @@
         <?php if (is_user_logged_in()){ 
             ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
         <?php } else {
-            ?><a>Join</a>
-            <a href="<?php echo wp_login_url(home_url());?>">Login</a>
+            ?><a href="<?php echo esc_url(site_url('/join')) ?>">Join</a>
+            <a href="<?php echo esc_url(site_url('/login')) ?>">Login</a>
         <?php }
     ?></nav>
     <div id="menu-container-wrapper" class="hidden mobile">
@@ -40,8 +40,8 @@
                 <?php if (is_user_logged_in()){ 
                     ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
                 <?php } else {
-                    ?><a>Join</a>
-                    <a href="<?php echo wp_login_url(home_url());?>">Login</a>
+                    ?><a href="<?php echo esc_url(site_url('/join')) ?>">Join</a>
+                    <a href="<?php echo esc_url(site_url('/login')) ?>">Login</a>
                 <?php }
             ?></nav>
         </div>
