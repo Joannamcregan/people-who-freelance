@@ -1,0 +1,17 @@
+form.forminator-custom-form{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    border-top: solid rgba(186, 214, 204, 0.5) 3px !important;
+    border-bottom: solid rgba(186, 214, 204, 0.5) 3px !important;
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+    font-family: verdana, sans-serif !important;
+}
+form.forminator-custom-form label{
+    font-family: verdana, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+form.forminator-custom-form div.forminator-field span.forminator-label{
+    display: none !important;
+}
