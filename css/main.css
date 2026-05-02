@@ -1,6 +1,7 @@
 :root {
   --dark-green: rgb(0, 83, 70);
   --dark-teal: rgb(0, 73, 82);
+  --light-indigo: rgb(246, 238, 252);
 }
 main{
     min-height: 90vh;
@@ -47,10 +48,9 @@ main a{
 }
 a.button-link{
     text-decoration: none;
-    color: white;
 }
 a.button-link div{
-    background: var(--dark-teal);
+    background: var(--light-indigo);
     padding: 10px;
     border-radius: 20px;
     margin-top: 40px;

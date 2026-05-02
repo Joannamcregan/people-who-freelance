@@ -17,7 +17,7 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
-    <a href="<?php echo esc_url(site_url()) ?>" class="serif font-20 no-underline"><strong><em>PWF Demo</em></strong></a>
+    <a href="<?php echo esc_url(site_url()) ?>" class="serif font-20 no-underline" tab-index=-1><strong><em>PWF Demo</em></strong></a>
     <span id="menu-link" class="mobile">menu</span>
     <nav class="desktop">
         <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
