@@ -21,7 +21,7 @@
     <span id="menu-link" class="mobile">menu</span>
     <nav class="desktop">
         <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
-        <a href="<?php echo esc_url(site_url('/requests')) ?>">Find Clients</a>
+        <a href="<?php echo esc_url(site_url('/service-requests')) ?>">Find Clients</a>
         <a href="<?php echo esc_url(site_url('/about')) ?>">Learn More</a>
         <?php if (is_user_logged_in()){ 
             ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
@@ -35,7 +35,7 @@
             <p id="close-menu" class="invisible">close</p>
             <nav>
                 <a href="<?php echo esc_url(site_url('/services')) ?>">Find Freelancers</a>
-                <a href="<?php echo esc_url(site_url('/requests')) ?>">Find Clients</a>
+                <a href="<?php echo esc_url(site_url('/service-requests')) ?>">Find Clients</a>
                 <a href="<?php echo esc_url(site_url('/about')) ?>">Learn More</a>
                 <?php if (is_user_logged_in()){ 
                     ?><a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
